@@ -1,0 +1,66 @@
+body {
+    color: white; /*cor do texto*/
+    background-color: rgb(43, 43, 43); /*cor do fundo*/
+    font-family: "Poppins", sans-serif; /*fonte do texto*/
+    font-size: 20px; /*tamanho da fonte*/
+}
+
+.menu-header {
+    display: block;
+    justify-content: center;
+    align-items: center;
+}
+
+.logo {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.nav {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.nav-items-header {
+    display: flex; 
+    justify-content: space-between;
+    list-style-type: none;
+    width: 800px;
+}
+
+a {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: white; /*cor do texto do grupo (a)*/
+    text-decoration: none; /*decoração "não" para o texto do grupo (a)*/
+    transition: font-size 0.3s ease, color 0.3s ease; /* Suaviza a transição */
+}
+
+a:hover {
+    font-size: 24px; /* Aumenta o tamanho da fonte ao passar o mouse */
+    color: lightgray; /* Opcional: muda a cor para destaque */
+}
+
+h1 {
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 40px;
+}
+
+.nav-items-footer {
+    display: flex; 
+    align-items: center;
+    justify-content: space-between;
+    list-style-type: none;
+    width: 1300px;
+    padding: 0;
+}
+
+.mbappe {
+    display: flex;
+}
