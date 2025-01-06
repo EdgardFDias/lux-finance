@@ -12,18 +12,21 @@ body {
     margin: 0;
 }
 
+header {
+    background-color: var(--extra-color);
+}
+
 .menu-header {
     display: block;
     justify-content: center;
     align-items: center;
-    margin-bottom: 10px;
-    background-color: var(--extra-color);
 }
 
 .logo {
     display: flex;
     align-items: center;
     justify-content: center;
+    margin-bottom: 10px;
 }
 
 .nav {
@@ -50,7 +53,6 @@ a {
 
 a:hover {
     font-size: 24px; /* Aumenta o tamanho da fonte ao passar o mouse */
-    color: lightgray; /* Opcional: muda a cor para destaque */
 }
 
 h1 {
