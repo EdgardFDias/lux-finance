@@ -38,3 +38,17 @@ h1 {
     align-items: center;
     justify-content: center;
 }
+
+h2 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 50px;
+}
+
+h3 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 30px;
+}
