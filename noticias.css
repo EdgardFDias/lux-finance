@@ -10,6 +10,12 @@ h2 {
 
 .header-img {
     display: flex;
+
     justify-content: center;
     align-items: center;
+
+}
+
+.center {
+    text-align: center;
 }
