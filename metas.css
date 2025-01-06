@@ -1,19 +1,21 @@
-body {
-    color: black; /*cor do texto*/
-    background-color: lightyellow; /*cor do fundo*/
-    font-family: "Poppins", sans-serif; /*fonte do texto*/
-    font-size: 20px; /*tamanho da fonte*/
+:root {
+    --main-color: #FFFAEC;
+    --secondary-color: #F5ECD5;
+    --extra-color: #578E7E;
 }
 
-ul {
-    display: flex;
-    list-style-type: none;
-    align-items: center;
-    justify-content: center;
-    gap: 100px;
+body {
+    color: black; /*cor do texto*/
+    background-color: var(--extra-color); /*cor do fundo*/
+    font-family: "Poppins", sans-serif; /*fonte do texto*/
+    font-size: 20px; /*tamanho da fonte*/
+    margin: 0;
 }
 
 a {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
     color: black; /*cor do texto do grupo (a)*/
     text-decoration: none; /*decoração "não" para o texto do grupo (a)*/
     transition: font-size 0.3s ease, color 0.3s ease; /* Suaviza a transição */
@@ -42,12 +44,15 @@ h2 {
 
 h3 {
     display: flex;
-    list-style-type: none;
     align-items: center;
-    padding: 20px;
-    padding-left: 400px;
-    padding-right: 400px;
     font-size: 24px;
+    margin: 0;
+}
+
+section {
+    background-color: var(--main-color);
+    height: 37vh;
+    width: 100%;
 }
 
 .section-img {
@@ -56,15 +61,55 @@ h3 {
     justify-content: center;
 }
 
-footer {
-    background-color: darkslategray;
-    height: 45vh;
-    text-align: center;
-    font-size: 20px;
-}
-
 .footer-img {
     display: flex;
     align-items: center;
     justify-content: center;
+}
+
+.footer-redes {
+    display: flex;
+    list-style-type: none;
+    justify-content: center;
+    margin: 0;
+    padding: 0;
+}
+
+li {
+    list-style: none;
+    display: flex;
+}
+
+.redes  {
+    width: 400px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+footer {
+    background-color: var(--secondary-color);
+    height: 4vh;
+    font-size: 20px;
+}
+
+.menu-footer {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+footer {
+    background-color: var(--secondary-color);
+    height: 43vh;
+    text-align: center;
+    font-size: 20px;
+}
+
+.header-ul {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    list-style: none;
+    gap: 200px;
 }
