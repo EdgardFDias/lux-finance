@@ -1,0 +1,40 @@
+body {
+    background-color: lightgreen;
+    font-size: 20px;
+}
+
+ul {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    list-style: none;
+    font-family: "Poppins", sans-serif;
+    color: black;
+    gap: 200px;
+}
+
+a {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: black; /*cor do texto do grupo (a)*/
+    text-decoration: none; /*decoração "não" para o texto do grupo (a)*/
+    transition: font-size 0.3s ease, color 0.3s ease; /* Suaviza a transição */
+}
+
+a:hover {
+    font-size: 24px; /* Aumenta o tamanho da fonte ao passar o mouse */
+    color: lightgray; /* Opcional: muda a cor para destaque */
+}
+
+.img-header {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+h1 {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
