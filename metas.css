@@ -57,16 +57,14 @@ h3 {
 }
 
 footer {
-    background-color: gray; width: auto; height: 450px;
-    color: white;
+    background-color: darkslategray;
+    height: 45vh;
+    text-align: center;
+    font-size: 20px;
 }
+
 .footer-img {
     display: flex;
     align-items: center;
     justify-content: center;
-}
-
-.footer-redes {
-    display: flex;
-    list-style-type: none;
 }
