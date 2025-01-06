@@ -89,3 +89,29 @@ h6 {
     justify-content: center;
     align-items: center;
 }
+
+.footer-img {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+h7 {
+    display: flex;
+    justify-content: center;
+    font-family: "Poppins", sans-serif;
+    font-size: 40px;
+}
+
+h8 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: "Poppins", sans-serif;
+    font-size: 25px;
+}
+
+.nav-footer {
+    height: 42vh;
+    background-color: gray;
+}
