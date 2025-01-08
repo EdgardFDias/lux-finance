@@ -13,14 +13,13 @@ body {
 }
 
 a {
-    color: white; /*cor do texto do grupo (a)*/
+    color: black; /*cor do texto do grupo (a)*/
     text-decoration: none; /*decoração "não" para o texto do grupo (a)*/
     transition: font-size 0.3s ease, color 0.3s ease; /* Suaviza a transição */
 }
 
 a:hover {
     font-size: 24px; /* Aumenta o tamanho da fonte ao passar o mouse */
-    color: lightgray; /* Opcional: muda a cor para destaque */
 }
 
 h1 {
@@ -69,4 +68,8 @@ h6 {
     align-items: center;
     font-size: 30px;
     margin: 0;
+}
+h3 {
+    display: flex;
+    justify-content: center;
 }
